@@ -32,7 +32,7 @@
   ],
   "dependencies": {
     "superagent": "~3.0.0",
-    "validator": "~13.1.1"
+    "validator": "^13.0.0"
   },
   "devDependencies": {
     "chai": "~3.5.0",

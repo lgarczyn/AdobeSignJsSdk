@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "main": "rest-api-sdk/src/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --recursive"
+    "test": "./node_modules/mocha/bin/mocha --recursive ./rest-api-sdk/test"
   },
   "bugs": {
     "url": "https://github.com/adobe-sign/AdobeSignNodeJsSdk/issues"
@@ -32,7 +32,7 @@
   ],
   "dependencies": {
     "superagent": "~3.0.0",
-    "validator": "~6.0.0"
+    "validator": "~13.1.1"
   },
   "devDependencies": {
     "chai": "~3.5.0",
